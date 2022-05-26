@@ -1,0 +1,14 @@
+{
+  "name": "New Extension",
+  "description": "Put the description here.",
+  "version": "0.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["*://*/*"],
+  "permissions": ["activeTab", "scripting"]
+}
